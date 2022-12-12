@@ -12,4 +12,4 @@ Below is my target:-
 5. Jenkins:-  July 2023
 6. Docker:-  Sep 2023
 7. Pythoin, T-SQL:- Nov 2023
-8. Revised everything
+
