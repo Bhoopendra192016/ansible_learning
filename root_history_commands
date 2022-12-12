@@ -1694,3 +1694,22 @@
   874  find / -name "root_history_commands"
   875  history >>
   876  history >>/root/.ssh/ansible_learning/root_history_commands
+<<<<<<< HEAD
+=======
+  877  cd .ssh/ansible_learning/
+  878  cat root_history_commands 
+  879  git diff root_history_commands
+  880  git add root_history_commands 
+  881  git status
+  882  git push origin main 
+  883  cat root_history_commands | more
+  884  git status root_history_commands 
+  885  git clone git@github.com:Bhoopendra192016/ansible_learning.git
+  886  ls -ltr
+  887  cat ansible_learning |more
+  888  cd ansible_learning/
+  889  ls 
+  890  cat root_history_commands |more
+  891   history
+  892  history >>root_history_commands 
+>>>>>>> 5855a3c124c8855cb407996a8fe24488e64253bc
