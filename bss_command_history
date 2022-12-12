@@ -1,0 +1,861 @@
+    1  su
+    2  ping www.google.com
+    3  init 6
+    4  ip add
+    5  init 6
+    6  ping www.google.com
+    7  ip add
+    8  ip add
+    9  ping www.google.com
+   10  nslookup www.google.com
+   11  cat /etc/resolv.conf 
+   12  ip add
+   13  wget www.google.com
+   14  nmtui
+   15  ip add
+   16  nmtui
+   17  ip add
+   18  init 6
+   19  # Network files and commands
+   20  history
+   21  # Interface configuration files
+   22  # /etc/nsswitch.cnf;  /etc/hostname; /etc/sysconfig/network; /etc/sysconfig/network-scripts/ifcfg-nic; /etc/resolv.conf
+   23  history 
+   24  cd /etc/nsswitch.conf
+   25  cat /etc/nsswitch.conf
+   26  cat /etc/nsswitch.conf |more
+   27  su 
+   28  ls -ltr
+   29  cd /home/bss/
+   30  ls -ltr
+   31  cat /etc/hosts
+   32  vi /etc/hosts
+   33  cat /etc/hosts
+   34  rsync
+   35  traceroute
+   36  sudo yum install traceroute
+   37  traceroute
+   38  traceroute www.google.com
+   39  traceroute ftp.redhat.com
+   40  traceroute BobbyLinux
+   41  ip add
+   42  ipconfig
+   43  netstat -rnv
+   44  netstat -nrv
+   45  netstat 
+   46  netstat -r
+   47  netstat -vrn
+   48  netstat -rnv
+   49  # Message of the Day
+   50  # message of the day file location is as :  /etc/motd
+   51  history
+   52  cat >>/etc/motd
+   53  su
+   54  cd !
+   55  cd ~
+   56  ls -ltr
+   57  ftp whoami
+   58  who am i
+   59  ftp ftp.redhat.com
+   60  sudo yum install ftp
+   61  ftp ftp.redhat.com
+   62  ps -ef |grep ftp
+   63  ping BobbyLinux
+   64  ftp BobbyLinux 
+   65  pwd
+   66  ls -ltr
+   67  scp jupiter BobbyLinux:/home/bss/seinfeld
+   68  su
+   69  history |grep netstat
+   70  tcpdump
+   71  netstat -rnv
+   72  su
+   73  passwd
+   74  /
+   75  cd /
+   76  pwd
+   77  ls -ltr
+   78  cd /bin/
+   79  ls -ltr
+   80  wc
+   81  wc /bin/
+   82  grep wc
+   83  ls -ltr |grep wc
+   84  man wc
+   85  pwd
+   86  cd /
+   87  pwd
+   88  cd /root/
+   89  pwd
+   90  su
+   91  ls -ltr
+   92  touch file1
+   93  su
+   94  touch file1 /etc/
+   95  su
+   96  cd /var/log/samba/
+   97  su
+   98  cat jerry 
+   99  chmod u+r jerry 
+  100  ls -l jerry 
+  101  cat jerry 
+  102  chmod u-r jerry 
+  103  cat jerry 
+  104  ls -l jerry 
+  105  chmod g+rw jerry 
+  106  ls -l jerry 
+  107  chmod u+rw jerry 
+  108  ls -l jerry 
+  109  cat jerry 
+  110  ls -l jerry 
+  111  chmod o+wr jerry 
+  112  ls -l jerry 
+  113  chmod u+x jerry 
+  114  ls -l jerry 
+  115  cd..
+  116  cd ..
+  117  pwd
+  118  find -name "seni"*
+  119  find -name "seni"
+  120  history |grep find
+  121  find . -name "seni"
+  122  find / -name "seni"
+  123  find /home/bss/ -name "seni"
+  124  find /home/bss/ -name "sein"
+  125  find /home/bss/ -name "sein*"
+  126  history | grep find
+  127  cd /home/
+  128  cd bss/
+  129  ls -ltr
+  130  chmod a-x seinfeld/
+  131  ls -ltr seinfeld/
+  132  ls -ltr
+  133  cd seinfeld/
+  134  chmod a+x seinfeld/
+  135  cd seinfeld/
+  136  cd /home/bss/
+  137  ls -lt
+  138  chgrp bss jupiter 
+  139  ls -lt jupiter 
+  140  chusr root jupiter 
+  141  chgrp bss jupiter 
+  142  ls -lt
+  143  ls -lt jupiter 
+  144  chgrp root jupiter 
+  145  su
+  146  ls -l jerry 
+  147  rm jerry 
+  148  ls -l jerry 
+  149  cat>jerry
+  150  ls -l
+  151  cd ..
+  152  su
+  153  # wildcard   *
+  154  #  *, ?, []
+  155  history
+  156  history | grep *
+  157  history | grep ?
+  158  ls -ltr
+  159  ls -ltr |grep F?le1
+  160  ls -ltr |grep F??e1
+  161  ls -ltr |grep F?e1
+  162  ls -ltr |grep F???
+  163  ls -ltr |grep F????
+  164  touch File{1..9}
+  165  ls -ltr
+  166  ls -lt
+  167  ls -l
+  168  rm File*
+  169  ls -ltr
+  170  touch File{1..9}
+  171  ls -ltr
+  172  rm File*
+  173  ls -ltr
+  174  touch File{1..10}
+  175  ls -ltr
+  176  rm File*
+  177  touch File{1..10}
+  178  ls -ltr
+  179  ls -ltr |grep File*
+  180  ls -ltr |gprep File*
+  181  ls -ltr |grep File1
+  182  ls -ltr |grep File*
+  183  ls -ltr |grep Fil*
+  184  ls -ltr File*
+  185  ls -ltr Fil??
+  186  ls -ltr Fil???
+  187  ls -ltr File[1-10]
+  188  ls -ltr File[1..10]
+  189  rm File*
+  190  ls -ltr
+  191  touch File{1..9}
+  192  rm *rm - File*
+  193  ls -ltr
+  194  touch File{1..9}-xyz
+  195  ls -ltr
+  196  rm *xyz
+  197  ls -ltr
+  198  touch File{1..9}-xyz
+  199  ls -l ?ile*
+  200  ls -l ?i*
+  201  ls -l *[il]
+  202  ls -l *[il]*
+  203  ls -l *[il]* |more
+  204  ls -l *[il]* | more
+  205  ls -l *[ile]* | more
+  206  rm *le*-xyz
+  207  ls -ltr
+  208  mkdir {a..c}{1..3}
+  209  ls -ltr
+  210  rm {a..c}
+  211  rm **{a..c}*
+  212  rm a?
+  213  rm -r a?
+  214  ls -ltr
+  215  rm -r b?
+  216  ls -ltr
+  217  rm -r c?
+  218  ls -ltr
+  219  mkdir {a..c}{1..3}
+  220  ls-ltr
+  221  ls -ltr
+  222  rm -r {a..c}?
+  223  ls -ltr
+  224  mkdir jerry kramer george lex
+  225  rm -r lex
+  226  rm -r homer
+  227  rm -r testhomer 
+  228  ls -ltr
+  229  mkdir jerry kramer george lex clark lois homer bart lisa marge
+  230  ls -ltr
+  231  rm lois 
+  232  ls -ltr
+  233  mkdir lois
+  234  ls -ltr
+  235  rm -r superhero/
+  236  rm -r superman
+  237  rm -r seinfeld/
+  238  ls -ltr
+  239  ls -l
+  240  rm -r jerry kramer george lex clark lois homer bart lisa marge
+  241  ls -ltr
+  242  touch jerry kramer george lex clark lois homer bart lisa marge
+  243  ls -ltr
+  244  mkdir seinfeld superman simpsons
+  245  ls -ltr
+  246  mv jerry george kramer seinfeld
+  247  cd seinfeld/
+  248  ls
+  249  ls -l
+  250  cd ..
+  251  ls -ltr
+  252  mv homer bart marge lisa simpsons/
+  253  mv clark lois superman/
+  254  cd superman/
+  255  ls -ltr
+  256  cd ..
+  257  ls -ltr
+  258  mv lex superman/
+  259  cd superman/
+  260  ls -ltr
+  261  cd /seinfeld
+  262  cd ..
+  263  cd /seinfeld
+  264  ls -l
+  265  cd seinfeld/
+  266  ls -ltr
+  267  touch eliane newman
+  268  ls -ltr
+  269  # Pipe (|) :-  is used by the shell to connect the output of one command diretly to the input of another command.
+  270  cd /etc/
+  271  ls -ltr
+  272  ls -ltr | more
+  273  ll
+  274  ll |more
+  275  ll |tail
+  276  ll -ltr|tail
+  277  ls
+  278  ls -l
+  279  ls -l|tail
+  280  cd ..
+  281  ls
+  282  ls -lt
+  283  ls -l
+  284  ls -l 
+  285  find . -name "jerry"
+  286  pwd
+  287  cd /home/bss/seinfeld/
+  288  ls -l jerry 
+  289  man chmod
+  290  chmod g -w jerry
+  291  chmod g-w jerry
+  292  ls -l jerry 
+  293  chmod g+w jerry
+  294  ls -l jerry 
+  295  chmod g +w jerry
+  296  ls -l jerry 
+  297  chmod g-w jerry 
+  298  ls -l jerry 
+  299  chmod o+w jerry 
+  300  ls -l jerry 
+  301  chmod o-w jerry 
+  302  ls -l jerry 
+  303  chmod u+w jerry 
+  304  ls -l jerry 
+  305  cat jerry 
+  306  cat>>jerry 
+  307  cat jerry 
+  308  chmod a-r jerry 
+  309  ls -l jerry 
+  310  history
+  311  history|cat>hist
+  312  cat hist 
+  313  ls -l jerry 
+  314  chmod u+r jerry 
+  315  ls -l jerry 
+  316  chmod u-wr jerry 
+  317  ls -l jerry 
+  318  su
+  319  pwd
+  320  cd ~
+  321  pwd
+  322  ls -ltr
+  323  touch jerry
+  324  ls -ltr
+  325  rm -rf cron*
+  326  ls -tr
+  327  ls -lt
+  328  ls
+  329  ls -ltr
+  330  ls -lt
+  331  ls -l
+  332  touch george
+  333  ls -ltr
+  334  cp jerry lex
+  335  ls -ltr
+  336  cp jerry clark
+  337  cp jerry lois
+  338  ls -ltr
+  339  vi homer
+  340  ls -ltr
+  341  cat hom*
+  342  cat homer 
+  343  cp homer testhomer
+  344  ls -ltr
+  345  cat testhomer 
+  346  touch bart lisa marge
+  347  ls -ltr
+  348  cat File1 File2
+  349  cat > File1 File2
+  350  cat > File1
+  351  ls -ltr
+  352  cat File1 
+  353  pwd
+  354  mkdir seinfeld
+  355  rm -rf seinfeld
+  356  ls -ltr
+  357  ls -ltr | grep sein*
+  358  mkdir seinfeld
+  359  ls -ltr
+  360  mkdir superman
+  361  ls -ltr |grep super*
+  362  rm -rf super*
+  363  ls -ltr |grep super*
+  364  mkdir superhero
+  365  ls -ltr
+  366  cd /etc/
+  367  touch test123
+  368  ls -ltr
+  369  rm test123
+  370  cd ..
+  371  ls -ltr
+  372  history |grep mv*
+  373  pwd
+  374  cd etc/
+  375  pwd
+  376  ls -ltr
+  377  cd ~
+  378  pwd
+  379  mv jerr karmer george /home/bss/seinfeld/
+  380  ls -ltr |grep kra*
+  381  touch kramer
+  382  ls -ltr
+  383  mv jerry kramer george /home/bss/seinfeld/
+  384  touch george
+  385  ls -ltr
+  386  pwd
+  387  ls -ltr | grep *jerry*
+  388  cd seinfeld/
+  389  ls -ltr
+  390  cd ..
+  391  rm george 
+  392  cd seinfeld/
+  393  ls -ltr
+  394  # Find files and directories
+  395  # two commands as :-    find and locate
+  396  cd ..
+  397  find kramer
+  398  locate kramer
+  399  pwd
+  400  cd seinfeld/
+  401  ls -ltr
+  402  cd ..
+  403  ls -ltr
+  404  find . -name "kramer"
+  405  history
+  406  locate kramer
+  407  history
+  408  history |grep find
+  409  find / -name "kramer"
+  410  find / -name "kramer" |grep kramer
+  411  su
+  412  su
+  413  su
+  414  su
+  415  SMY3KnuG!
+  416  ls -l |more
+  417  cat etc/
+  418  head -2 ls
+  419  cd tmp/
+  420  ls
+  421  ls -l
+  422  cd ..
+  423  find . -name "seinfeld"
+  424  cd ~
+  425  ls -l
+  426  cd seinfeld/
+  427  ls -l
+  428  head -2 hist 
+  429  tail -2 hist 
+  430  history
+  431  cut -c1 hist 
+  432  cut -c2 hist 
+  433  cat hist 
+  434  cd ..
+  435  ls l
+  436  ls -l
+  437  cat myfirst
+  438  cat myfirsteditorfile 
+  439  cat jerry 
+  440  cut -c1 jerry 
+  441  cut -c[1-2] jerry 
+  442  cut -c2 jerry 
+  443  cut -c1-2 jerry 
+  444  cut -c1-4 jerry 
+  445  awk '{print 1}' jerry 
+  446  awk '{print $1}' jerry 
+  447  awk '{print $1-3}' jerry 
+  448  awk '{print $2}' jerry 
+  449  awk '{print $1}''{print $2}' jerry 
+  450  cat jerry 
+  451  awk '{print $1}{print $2}' jerry 
+  452  awk '{print $1 {print $2}}' jerry 
+  453  awk '{print $1}' jerry sort jerry 
+  454  sort jerry 
+  455  sort hist
+  456  ls -l
+  457  cat index.html 
+  458  ls -l
+  459  uniq jerry 
+  460  wc jerry 
+  461  wc index.html 
+  462  cat index.html | wc -l
+  463  cat jupiter 
+  464  cat myfirsteditorfile 
+  465  diff myfirsteditorfile jerry 
+  466  cat myfirsteditorfile 
+  467  cmp jerry myfirsteditorfile 
+  468  tar jerry
+  469  ls -l
+  470  tar cvf file2
+  471  tar cvf file2.tar
+  472  tar cvf file11.tar file2 
+  473  ls -l
+  474  rm file11.tar 
+  475  ls -l
+  476  tar jerry.tar jerry
+  477  tar cvf jerry.tar jerry
+  478  ls -l
+  479  cat jerry.tar
+  480  tar xvf jerry.tar 
+  481  ls -l
+  482  gzip jerry.tar
+  483  ls -l
+  484  gzip[ -d jerry.tar.gz 
+  485  gzip -d jerry.tar.gz 
+  486  ls -l
+  487  cat /etc/passwd | wc -l
+  488  cat /etc/passwd
+  489  awk -F':' '{print $1}' /etc//passwd
+  490  awk -F':' '{print $1}' /etc/passwd
+  491  awk -F '{print $1}' /etc/passwd
+  492  getent passwd 
+  493  awk -F':''{print $1}' /etc/passwd | grep super*
+  494  awk -F':''{print $1}' /etc/passwd | grep bs*
+  495  awk -F':''{print $1}' /etc/passwd
+  496  awk -F':' '{print $1}' /etc/passwd
+  497  awk -F':' '{print $1}' /etc/passwd| grep spi*
+  498  rm spiderman
+  499  userdel spiderman 
+  500  su
+  501  is bss
+  502  id bss
+  503  id su
+  504  cd /home/
+  505  ls -ltr
+  506  groupadd bss root
+  507  usermod jupiter
+  508  usermod -G root bss
+  509  cd /etc/
+  510  cat>t
+  511  ls -ltr
+  512  rm t
+  513  ls -ltr
+  514  su
+  515  who
+  516  uptime
+  517  hostname
+  518  date
+  519  which
+  520  which --version
+  521  who
+  522  last
+  523  w
+  524  man w
+  525  which w
+  526  id
+  527  last |more
+  528  histroy | grep *-F*
+  529  cd ~
+  530  histro | grep *-F*
+  531  # two commands as :-    find and locatefinger
+  532  finger
+  533  at
+  534  date
+  535  top
+  536  systemctl
+  537  ps
+  538  systemctl restart ntpd
+  539  yum install ntpd
+  540  su yum install ntpd
+  541  sudo yum install ntpd
+  542  su
+  543  df
+  544  df -h
+  545  du
+  546  du -a
+  547  dmesg
+  548  iostat
+  549  iostat l
+  550  iostat 1
+  551  netstat
+  552  netstat -rnv
+  553  netstat |more
+  554  man netstat
+  555  free
+  556  cat /proc/cpuinfo
+  557  man init
+  558  su
+  559  init 0
+  560  cat /etc/redhat-release 
+  561  uname -a
+  562  dmicode
+  563  dmidecode 
+  564  su
+  565  cat >ktfile
+  566  cat ktfile 
+  567  cat >>ktfile 
+  568  cat ktfile 
+  569  touch file1 file2 file3
+  570  ls -ltr
+  571  mkdir ktdir
+  572  ls -ltr
+  573  mkdir -p KernelTech/{Linux/{advlinux,linuxclstr}},Aix/{hacmp,lpar},Storage/{san,netapp}}
+  574  ls -ltr
+  575  tree KernelTech/
+  576  cd KernelTech/
+  577  ls -ltr
+  578  cd Storage/
+  579  ls -l
+  580  cd san/
+  581  ls -l
+  582  cd >SanFile
+  583  pwd
+  584  cd KernelTech/Storage/san/
+  585  pwd
+  586  ls
+  587  ls -ltr
+  588  rm SanFile 
+  589  ls -ltr
+  590  cat>SanFil
+  591  cat SanFil 
+  592  cd ~
+  593  pwd
+  594  rm KernelTech/
+  595  rm -rf KernelTech/
+  596  ls -ltr
+  597  mkdir -p KernelDir/{God/{Vishnu,Shiv},Storage/{San,NetApp},Lan/{C++,.Net}}
+  598  tree KernelDir/
+  599  rm KernelDir/
+  600  rm -rf KernelDir/
+  601  clear
+  602  mkdir -p KernelDir/{Linux/{RedHat,Centos},Window/{Win_Vista,Win7},DB/{SQL,MySQL}}
+  603  tree KernelDir/
+  604  compgen -u
+  605  ls -ltr
+  606  rm -r KernelDir/
+  607  ls -ltr
+  608  rm -r ktdir
+  609  ls -ltr
+  610  mkdir -p Testdir\{Linux\{Centos,RedHat},Window\{Win7,Win10},Storage\{San,NetApp}}
+  611  ls -ltr
+  612  tree Testdir\{Linux\{Centos\,RedHat\}\,Window\{Win7\,Win10\}\,Storage\{San\,NetApp\}\}/
+  613  rm Testdir\{Linux\{Centos\,RedHat\}\,Window\{Win7\,Win10\}\,Storage\{San\,NetApp\}\}/
+  614  rm -rf Testdir\{Linux\{Centos\,RedHat\}\,Window\{Win7\,Win10\}\,Storage\{San\,NetApp\}\}/
+  615  mkdir Testdir \{Linux{Centos,RedHat}}
+  616  ls -ltr
+  617  r Testdir \{Linux{Centos,RedHat}}
+  618  rm -rf Testdir \{Linux{Centos,RedHat}}
+  619  ls -ltr
+  620  mkdir KernelTech /{Linux/{advlinux,linusclstr},Aix/{hacmp,lpar},Storage/{san,netapp}}
+  621  mkdir -p KernelTech /{Linux/{advlinux,linusclstr},Aix/{hacmp,lpar},Storage/{san,netapp}}
+  622  pwd
+  623  mkdir -p KernelTech/{Linux/{advlinux,linusclstr},Aix/{hacmp,lpar},Storage/{san,netapp}}
+  624  ls -ltr
+  625  rm -rf KernelTech/
+  626  mkdir -p KernelTech/{Linux/{advlinux,linuxclstr},Aix/{hacmp,lpar},storage{san,netapp}}
+  627  ls -ltr
+  628  rm -rf KernelTech/
+  629  useadd harry1; echo -e "P@sswd@123\nP@sswd@123"|passwd harry1
+  630  useradd harry1; echo -e "P@sswd@123\nP@sswd@123"|passwd harry1
+  631  su useradd harry1; echo -e "P@sswd@123\nP@sswd@123"|passwd harry1
+  632  sudo useradd harry1; echo -e "P@sswd@123\nP@sswd@123"|passwd harry1
+  633  su
+  634  vim
+  635  ls -l jerry
+  636  ls ?erry
+  637  ls [a-f]*
+  638  ls [a-m]*
+  639  ls [a-m]* -l
+  640  ls [!a-m]* -l
+  641  ln -s ktfile ktfile.slink
+  642  ls -li ktfile ktfile.slink
+  643  ln ktfile ktfile.hlink
+  644  ls ktfile ktfile.hlink 
+  645  ls -li ktfile ktfile.hlink 
+  646  ln -s sftfile.slink
+  647  ls -li sftfile.slink 
+  648  ls -li ktfile.slink 
+  649  ls -ltr
+  650  rm ktfile.slink 
+  651  ls -ltr
+  652  rm sftfile.slink 
+  653  ls -ltr
+  654  ln -s softfile softfile.slink
+  655  ls -li softfile
+  656  ls -li softfile softfile.slink 
+  657  # Creating hardlink
+  658  ln hardfile hardfile.hlink
+  659  ls -ltr
+  660  rm softfile.slink 
+  661  ls -ltr
+  662  ln hardfile hardfile.hlink
+  663  ln ktfile ktfile.hlink
+  664  ls -ltr
+  665  rm ktfile
+  666  rm ktfile.hlink 
+  667  ls -ltr
+  668  ln harlink hardfile.hlink
+  669  ln hardfile hardfile.hlink
+  670  ln -s sftfile softfile.slink
+  671  ls -ltr
+  672  ln hfile hfile.hlink
+  673  ln ktfile ktfile.hlink
+  674  init 6
+  675  sudo init 6
+  676  su
+  677  ln ktfile ktfile.hlink
+  678  ln hardfile hardfile.hlink
+  679  cat >hardfile
+  680  cat hardfile 
+  681  ln hardfile hardfile.hlink
+  682  ls -ltr
+  683  cat hardfile.hlink 
+  684  rm hardfile
+  685  ls -ltr
+  686  cat hardfile.hlink 
+  687  cat softfile
+  688  cat >softfile
+  689  cat softfile
+  690  ln -s softfile sftlink.slink
+  691  ls -ltr
+  692  cat sftlink.slink 
+  693  rm softfile
+  694  ls -ltr
+  695  cat sftlink.slink 
+  696  rm sftlink.slink 
+  697  ls -ltr
+  698  grep root /etc/passwd
+  699  grep -i ROOT /etc/passwd
+  700  ls -i Jerry
+  701  ls -ltr|grep -i JERRY
+  702  # To display a word and 2 lines after the word:
+  703  grep -nA2 wheel /etc/group
+  704  grep -nB2 wheel /etc/group
+  705  # To display the things except the given word:
+  706  cat hardfile.hlink 
+  707  cat >>hardfile.hlink 
+  708  cat hardfile.hlink 
+  709  grep-v This hardfile.hlink 
+  710  grep -v This hardfile.hlink 
+  711  grep --color -i root /etc/passwd
+  712  grep  root /etc/passwd
+  713  ifconfig
+  714  ifconfig g 
+  715  ifconfig ens160
+  716  ifconfig ens160 |grep -l eth0
+  717  head -5 ifconfig ens160
+  718  head
+  719  ls -ltr
+  720  cat index.html 
+  721  head 10 index.html 
+  722  ls -ltr
+  723  cat myfirsteditorfile 
+  724  head -1 myfirsteditorfile 
+  725  cat myfirsteditorfile  |sort
+  726  sort myfirsteditorfile 
+  727  sort -d ktfile
+  728  sort -d myfirsteditorfile 
+  729  cut -d -f /etc/passwd
+  730  cut -d: -f /etc/passwd
+  731  cut -d: -f1 /etc/passwd
+  732  cut -d -f1 /etc/passwd
+  733  cut -d"" -f1 /etc/passwd
+  734  cut -d, -f1 /etc/passwd
+  735  cut -d'' -f1 /etc/passwd
+  736  cat >hello
+  737  cat hello 
+  738  cut -d,-f1 hello
+  739  cut -d, -f1 hello
+  740  cut -d, -f2 hello
+  741  cut -d" " -f1 /etc/passwd
+  742  ls -ltr
+  743  cat hello 
+  744  cat jerry
+  745  gzip jerry.tar
+  746  ls -ltr
+  747  gunzip jerry.tar.gz 
+  748  ls -ltr
+  749  cat hello 
+  750  cat myfirsteditorfile 
+  751  cat hello myfirsteditorfile >helloandmyfirstfile_contents
+  752  cat helloandmyfirstfile_contents 
+  753  cat myfirsteditorfile hello|tee file10
+  754  ls -ltr
+  755  cat file10 
+  756  cat>file1
+  757  cat file1|teee -a file10
+  758  cat file1|tee -a file10
+  759  cat file10
+  760  ls -ltr
+  761  chmod u=x,g=w,o= file10
+  762  ls -ltr file10
+  763  chmod u=rwx,g=rw,o=rw file10
+  764  ls -ltr file10
+  765  chmod ugo= file10
+  766  ls -ltr file10
+  767  chmod ugo=rwx file10
+  768  ls -ltr file10
+  769  chmod 0 file10
+  770  ls -ltr file10
+  771  chmod 761 file10
+  772  ls -ltr file10
+  773  `17000+26000
+  774  cal
+  775  bc
+  776  ls -ltr
+  777  umask
+  778  df -h
+  779  fdisk -l
+  780  su
+  781  cd ~
+  782  ls -ltr .ssh/
+  783  cat .ssh/ansible.pub 
+  784  ls -ltr
+  785  git clone git@github.com:Bhoopendra192016/ansible_learning.git
+  786  ls -ltr
+  787  ls -ltr .ssh/
+  788  cd .ssh/
+  789  ls
+  790  git clone git@github.com:Bhoopendra192016/ansible_learning.git
+  791  ssh -vT git@github.com
+  792  pwd
+  793  ls -ltr
+  794  ssh-keygen -t rsa -C "bss.srm@gmail.com"
+  795  ls -ltr
+  796  open id_rsa.pub
+  797  vim id_rsa.pub 
+  798  git push 
+  799  start ssh-agent
+  800  ssh-agent 
+  801  git push origin master
+  802  git clone git@github.com:Bhoopendra192016/ansible_learning.git
+  803  ls -ltr
+  804  cd ansible_learning/
+  805  ls
+  806  cat README.md 
+  807  vim README.md 
+  808  cat README.md 
+  809  ls
+  810  cat R
+  811  cat README.md 
+  812  git config --global user.name "Bhoopendra singh"
+  813  git config --global user.name "Bhoopendra Singh"
+  814  git config --global user.email "BSS.SRM@GMAIL.COM"
+  815  cat ~/.gitconfig 
+  816  ls
+  817  nano README.md
+  818  cat README.md 
+  819  git status 
+  820  git diff
+  821  git diff README.md
+  822  git add README.md
+  823  git status 
+  824  git commit -m "updated readme file, initial commit."
+  825  git push origin master
+  826  git checkout -b master
+  827  pwd
+  828  git push origin master
+  829  git push origin main
+  830  nano README.md 
+  831  cat README.md 
+  832  git push origin main
+  833  git diff
+  834  git diff README.md
+  835  git add README.md 
+  836  git status 
+  837  git commit -m "Updating ReadMe file again"
+  838  git push origin main
+  839  git config 
+  840  cat ~/.gitconfig 
+  841  nano README.md 
+  842  cat README.md 
+  843  git status
+  844  git diff README.md
+  845  git add README.md 
+  846  git status 
+  847  git commit -m "Updated Readme file again1"
+  848  git push origin master
+  849  git branch
+  850  cat>Ansible_Command
+  851  cat Ansible_Command 
+  852  ls -ltr
+  853  git commit -m "Ansible_learning commands"
+  854  git add Ansible_Command
+  855  git status 
+  856  git commit -m "Ansible_learning commands"
+  857  git diff Ansible_Command
+  858  git push origin master 
+  859  git push origin main
+  860  history
+  861  history>bss_command_history
