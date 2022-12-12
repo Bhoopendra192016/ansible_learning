@@ -1,0 +1,11 @@
+1. Start the ssh agent:-   ssh-agent
+2. Add SSH key from server to Git. (follow the steps mentioned in Error 1 above.)
+3. Connect the server to Git with ssh:-    git clone git@github.com:Bhoopendra192016/ansible_learning.git (url from git hub with ssh)
+4. Check same git directory created on server or not:-   ls -ltr .ssh/
+5. Change the directory:-   cd .ssh/ansible_learning
+6. Create/update the files under ansible_learning directory
+7. Git diff file_name
+8. Git add file_name
+9. Git status
+10. Git commit -m "comment what you did"
+11. Git push origian master/main (branch name):-  to check the branch name    :-  git branch
