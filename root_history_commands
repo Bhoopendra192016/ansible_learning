@@ -1713,3 +1713,1003 @@
   891   history
   892  history >>root_history_commands 
 >>>>>>> 5855a3c124c8855cb407996a8fe24488e64253bc
+   26  cd ~
+   27  pwd
+   28  hostname
+   29  yum install ntp
+   30  yum install http
+   31  yum install httpd
+   32  rpm -qa
+   33  rpm -qa |grep httpd
+   34  rpm -qa |wc -l
+   35  rpm -qa |wc
+   36  rpm -qa|grep bind
+   37  yum install bind
+   38  rpm -qa|grep bind
+   39  rpm -qa |grep bind
+   40  rpm -ihv /tmp/package.rpm
+   41  ls -lt /tmp/
+   42  rpm -e bind
+   43  rpm -qa|grep bind
+   44  ls -ltr /etc/
+   45  ls -ltr /etc/ |grep yum
+   46  yum install bind
+   47  rpm -qa |grep bind
+   48  yum remove bind
+   49  rpm -qa |grfep bind
+   50  rpm -qa |grep bind
+   51  yum install bin
+   52  yum install bind
+   53  rpm -qa |grep bind
+   54  yum install postgresql -server
+   55  yum install postgresql-server
+   56  df -h
+   57  rpm -qa | grep post
+   58  hostnamectl
+   59  cat /etc/os-release
+   60  uname -r
+   61  cat /etc/os-release
+   62  yum update -u
+   63  yum update -y
+   64  cat /etc/os-release
+   65  cat /etc/redhat-release
+   66  yum update
+   67  ping www.google.com
+   68  rpm -qa |grep httpd
+   69  rpm -qa |grep apache
+   70  who -rwho -r
+   71  who -r
+   72  # File transfer
+   73  # ftp; scp; rsync
+   74  -ltr
+   75  ls -ltr
+   76  su bss
+   77  vi /etc/hosts
+   78  ip add
+   79  ping BobbyLinux
+   80  more /etc/sysconfig/network
+   81  ls -ltr
+   82  more listingofdir 
+   83  cd /etc/sysconfig/network-scripts
+   84  ls -ltr
+   85  cd /etc/hostname
+   86  tree
+   87  cd ..
+   88  history |grep *netstat*
+   89  history |grep *netstat
+   90  su bss
+   91  cd /root/
+   92  pwd
+   93  cd /
+   94  pwd
+   95  ls -ltr
+   96  cd /root/
+   97  ls -ltr
+   98  cd bot
+   99  cd boot
+  100  cd /
+  101  ls -ltr
+  102  cd boot/
+  103  ls -lt
+  104  ls -l
+  105  pwd
+  106  cd /etc/
+  107  cd /sysconfig
+  108  cd /sys/
+  109  pwd
+  110  cd ..
+  111  pwd
+  112  cd /etc/
+  113  ls
+  114  ls -lt
+  115  cd /
+  116  cd /cups
+  117  cd /etc//cups
+  118  pwd
+  119  cd /etc/
+  120  pwd
+  121  cd /cups
+  122  cd cups
+  123  pwd
+  124  whoami
+  125  who am i
+  126  cd /var/
+  127  ls -lt
+  128  cd /
+  129  cd /var/log
+  130  cd /samba
+  131  cd samba
+  132  cd /log
+  133  cd /var/log
+  134  ls -lt
+  135  ls -lt |sort
+  136  passwd bss
+  137  passwd
+  138  su bss
+  139  touch file
+  140  ls -ltr
+  141  chmod a+x /etc/
+  142  cd ..
+  143  ls -lt
+  144  chmod a+w /etc/
+  145  ls -lt
+  146  chmod a-w /etc/
+  147  chmod a-x /etc/
+  148  ls -lt
+  149  whatis chgrp
+  150  whatis find
+  151  whatis ls
+  152  whatis ll
+  153  whatis ls -lt
+  154  history
+  155  find . -name "find"
+  156  pwd
+  157  find / -name "find"
+  158  history| find / -name "find"
+  159  history| find  -name "find"
+  160  history| grep find
+  161  cd ~
+  162  touch listingofdir
+  163  ls -ltr
+  164  ls -l
+  165  pwd
+  166  rm listingofdir 
+  167  man compare
+  168  compare /home/bss/file2 
+  169  compare /home/bss/file2 /home/bss/jerry 
+  170  history compare
+  171  history |grep compare
+  172  touch file1 /etc/
+  173  cd /etc/
+  174  ls -lt
+  175  ls -ltr
+  176  ls -ltr file*
+  177  su bss
+  178  chgrp root jupiter 
+  179  ls -lt
+  180  ls -lt jupiter 
+  181  ls -l
+  182  ls -l etc
+  183  ls -l /etc/
+  184  ls -l 
+  185  cd /
+  186  ls -l
+  187  chmod g-w etc
+  188  ls -l
+  189  chmod o-w etc
+  190  ls -l
+  191  su bss
+  192  cd /home/bss/seinfeld/
+  193  ls -l
+  194  chmod a-rw jerry 
+  195  ls -l jerry 
+  196  su bss
+  197  rm jerry 
+  198  ls 
+  199  pwd
+  200  cat jerry
+  201  cat>jerry
+  202  ls -l
+  203  chmod a-rw jerry 
+  204  ls -l
+  205  su bss
+  206  find / -name "kramer" |grep kramer
+  207  find / -name "kramer"
+  208  locate kramer
+  209  su bss
+  210  cd /var/log/samba/
+  211  cd ..
+  212  cd sam
+  213  cd sam*
+  214  cd samba
+  215  cd log
+  216  cd sam*
+  217  pwd
+  218  cd ..
+  219  cd samba
+  220  pwd
+  221  cd /var/log/samba/
+  222  ls -ltr
+  223  cd /etc/sysconfig/network-scripts
+  224  pwd
+  225  cd ..
+  226  ls -ltr
+  227  ls -ltr |grep net*
+  228  ls -ltr |grep net
+  229  ls -ltr |grep sys
+  230  cd /sysconfig
+  231  cd sysconfig
+  232  ls -ltr
+  233  cd network-scripts/
+  234  pwd
+  235  cd /
+  236  pwd
+  237  ls -lt
+  238  ls -l
+  239  clear
+  240  history
+  241  whoami
+  242  pwd
+  243  bss
+  244  su bss
+  245  su bss
+  246  userdel ironman
+  247  kill 16679
+  248  cd home
+  249  cd /home/
+  250  userdel ironman
+  251  kill 16679
+  252  kill -16679
+  253  kill 16679
+  254  top
+  255  top |grep 16679
+  256  top | grep 16679
+  257  ls -ltr
+  258  userdel ironman
+  259  userdel -f ironman
+  260  killall -Term -u ironman
+  261  killall -l -u ironman
+  262  top
+  263  who
+  264  ls -ltr
+  265  rm -rf ironman
+  266  ls -ltr
+  267   ironman
+  268  bss
+  269  su ironman
+  270  groupadd nonewgroup
+  271  cd /etc/group
+  272  cd /group
+  273  find . -name 'group'
+  274  find . -name group
+  275  find / -name group
+  276  cd /etc/group
+  277  cd /etc/
+  278  ls -ltr group
+  279  cd /home/
+  280  cat /etc/group
+  281  groupdel nonewgroup
+  282  cat /etc/group
+  283  ls -ltr
+  284  useradd spiderman
+  285  id spiderman 
+  286  usermod -G superheros spiderman 
+  287  ls -ltr
+  288  cat /etc/group | grep superheros
+  289  grep spiderman /etc/group
+  290  useradd testusr
+  291  ls -ltr
+  292  usermod -G superheros testusr 
+  293  ls -ltr
+  294  grep testusr /etc/group
+  295  grep bss
+  296  grep bss /etc/group
+  297  grep root /etc/group
+  298  chgrp -R superheros testusr
+  299  ls -ltr
+  300  chgrp testusr testusr/
+  301  ls -ltr
+  302  grep testusr /etc/group
+  303  cat /etc/passwd
+  304  find / -name 1003
+  305  cat /etc/group
+  306  locate 1003
+  307  find 1003
+  308  find / 1003
+  309  cat /etc/shadow
+  310  cd ~
+  311  history 
+  312  useradd -g superheros -s /bin/bash -c "Ironman Character" -m -d /home/ironman ironman
+  313  useradd -g superheros -s /bin/bash -c "Ironman1 Character" -m -d /home/ironman1 ironman1
+  314  id ironman1
+  315  cd /home/
+  316  ls -ltr
+  317  cat /etc/passwd
+  318  userdel ironman
+  319  ls -ltr
+  320  rm ironman
+  321  rm -rf ironman
+  322  ls -ltr
+  323  cat /etc/passwd
+  324  passwd ironman1 
+  325  passwd ironman1 
+  326  passwd ironman1 
+  327  passwd ironman1 
+  328  cat /etc/passwd
+  329  who
+  330  last
+  331  last | awk '{print $1}'
+  332  history | grep *-F*
+  333  cd ~
+  334  history useradd
+  335  history |grep useradd
+  336  awk -F':' '{print $1}' /etc/passwd
+  337  vim
+  338  ls -ltr
+  339  rm playbook.yml 
+  340  ls -ltr
+  341  vim /etc/ansible/playbooks.yml
+  342  ls -ltr
+  343  cd /etc/ansible
+  344  mkdir /etc/ansible/playbooks
+  345  cd /etc/
+  346  ls -ltr
+  347  ls -ltr ansible
+  348  mkdir ansible
+  349  ls -ltr ansible
+  350  ls -ltr|grep ansible
+  351  cd ansible/
+  352  mkdir playbooks
+  353  cd playbooks/
+  354  vim first.yml
+  355  cat first.yml 
+  356  ansible-playbook --syntax-check first.yml 
+  357  systemctl
+  358  q
+  359  serice
+  360  service
+  361  ps
+  362  systemctl |more
+  363  top
+  364  top |more
+  365  top |more |sort
+  366  top |more
+  367  at
+  368  passwd ironman 
+  369  su ironman
+  370  userdel spiderman 
+  371  awk -F':' '{print $1}' /etc/passwd
+  372  awk -F':' '{print $1}' /etc/passwd | grep bss
+  373  awk -F':' '{print $1}' /etc/passwd | grep bs*
+  374  whatis usermod
+  375  cd /home/
+  376  ls -ltr
+  377  usermod -G root bss
+  378  ls -ltr
+  379  grep bss /etc/group
+  380  usermod -G bss bss
+  381  ls -ltr
+  382  grep bss /etc/group
+  383  id bss
+  384  id su
+  385  id root
+  386  userdel ironman 
+  387  ls -ltr
+  388  userdel -r ironman
+  389  useradd ironman
+  390  rm ironman/
+  391  rm -r ironman/
+  392  ls -ltr
+  393  rm -rf ironman
+  394  ls -ltr
+  395  useradd ironman
+  396  userdel ironman
+  397  ls -ltr
+  398  useradd ironman
+  399  find . -name ironman
+  400  rm ironman/
+  401  rm ironman/ls -ltr
+  402  ls -ltr
+  403  userdel -r ironman
+  404  cd /var/spool/mail/
+  405  ls -ltr ironman
+  406  chmod a+rwx ironman
+  407  chown root ironman
+  408  ls -ltr ironman
+  409  chgrp root ironman
+  410  ls -ltr ironman 
+  411  userdel -r ironman
+  412  ls -ltr ironman
+  413  cd /home/
+  414  ls -ltr
+  415  useradd ironman
+  416  cd /var/mail/
+  417  ls -ltr ironman 
+  418  rm ironman 
+  419  ls -ltr ironman
+  420  cd /home/
+  421  ls -ltr
+  422  userdel -r ironman 
+  423  userdel ironman 
+  424  ls -ltr
+  425  ls -ltr
+  426  ls -ltr
+  427  useradd ironman
+  428  ls -ltr
+  429  userdel ironman 
+  430  ls -ltr
+  431  ls -ltr
+  432  userdel -r ironman 
+  433  ls -ltr
+  434  chwon root ironman
+  435  chown root ironman
+  436  ls -ltr
+  437  chusr root ironman
+  438  ls -ltr
+  439  userdel -r ironman
+  440  groupdel -r ironman
+  441  groupdel  ironman
+  442  ls -ltr ironman
+  443  rm ironman
+  444  rm -rf ironman
+  445  ls -ltr
+  446  ls -ltr
+  447  useradd ironman
+  448  ls -ltr
+  449  su
+  450  pwd
+  451  ls -l
+  452  cd /etc/
+  453  ls -l
+  454  ls -l profile
+  455  chmod a+rw profile
+  456  ls -l profile
+  457  cd ..
+  458  pwd
+  459  cd /home/bss
+  460  cd ..
+  461  cd ..
+  462  pwd
+  463  ls -l etc
+  464  ls -l |grep etc
+  465  chmod a+rwx etc
+  466  ls -l |grep etc
+  467  su bss
+  468  cd ~
+  469  yum install ntpd
+  470  systemctl restart httpd
+  471  ps -ef
+  472  ps -ef httpd
+  473  ps -ef |grep httpd
+  474  systemctl status httpd
+  475  systemctl stop httpd
+  476  systemctl status httpd
+  477  ps -ef |grep httpd
+  478  systemctl start httpd
+  479  systemctl status httpd
+  480  ps -ef|grep httpd
+  481  systemctl enable httpd
+  482  systemctl enable ntpd
+  483  ps -ef | grep rsyslog
+  484  systemctl status rsyslog
+  485  top |grep httpd
+  486  top 
+  487  systemctl status httpd
+  488  ps -ef |grep httpd
+  489  kill 21969
+  490  ststemctl status httpd
+  491  systemctl status httpd
+  492  ps -ef |grep httpd
+  493  man top
+  494  top
+  495  top |grep sshd
+  496  date
+  497  date -s "08 Dec 2022 10:04:00"
+  498  date
+  499  date -s "07 Dec 2022 10:04"
+  500  date
+  501  crontab -e
+  502  user bss
+  503  bss
+  504  su bss
+  505  hostname
+  506  hostnamectl -set -hostname Bobby
+  507  hostnamectl -s -hostname Bobby
+  508  cat /etc/hostname
+  509  hostnamectl set-hostname Bobby
+  510  hostname
+  511  hostnamectl set-hostname Bobby_Linux
+  512  hostname
+  513  cat /etc/hostname
+  514  uname -a
+  515  cat /etc/redhat-release 
+  516  uname -a
+  517  dmidecode 
+  518  cd /home/
+  519  ls -l
+  520  awk -F':' '{print $1}' /etc/passwd
+  521  awk -F:'{print $1}'
+  522  awk -F:'{print $1}' /etc/passwd
+  523  cut -d':' -f1 /etc/passwd
+  524  getent passwd 
+  525  getent passwd | awk -F':' '{print $1}'
+  526  getent passwd |cut -d -f1
+  527  getent passwd |cut -d':' -f1
+  528  cat /etc/passwd
+  529  cat /etc/passwd |awk -F':' '{print $1}'
+  530  compgen -u
+  531  getent passwd 
+  532  compgen -u
+  533  compgen -u | grep iron*
+  534  usermod ironman1 ironman
+  535  chage
+  536  chage bss
+  537  useradd harry; echo -e "Roxi@123#\nRoxi@123#" |passwd harry
+  538  su harry
+  539  useradd james; echo -e"Passwd@123/nPasswd@123"|passwd james
+  540  useradd james; echo -e"Passwd@123#/nPasswd@123#"|passwd james
+  541  useradd james; echo -e"Passwd@123#\nPasswd@123#"|passwd james
+  542  cd /home/
+  543  ls -l
+  544  userdel james 
+  545  ls -l
+  546  rm -rf james/
+  547  ls -l
+  548  useradd james; echo -e "Passwd@123\nPasswd@123" |passwd james
+  549  ls -l
+  550  rm -rf james/
+  551  ls -l
+  552  useradd james; echo -e "Passwd@123#\nPasswd@123#" |passwd james
+  553  rm -rf james
+  554  ls -l
+  555  useradd james; echo -e "SMY3KnuG#\nSMY3KnuG#" |passwd james
+  556  ls -l
+  557  userdel james
+  558  ls -l
+  559  useradd james; echo -e "SMY3KnuG#\nSMY3KnuG#"|passwd james
+  560  ls -l
+  561  userdel james 
+  562  ls -l
+  563  rm -rf james
+  564  ls -l
+  565  rm -rf harry/
+  566  ls -l
+  567  useradd harry; echo -e"SMY3KnuG$\SMY3KnuG$" |passwd harry 
+  568  ls -l
+  569  awk -F':' '{print $1}' \etc\passwd
+  570  awk -F':' '{print $1}' /etc/passwd
+  571  awk -F':' '{print $1}' /etc/passwd |grep harry
+  572  userdel harry 
+  573  kill 23504
+  574  userdel harry
+  575  top
+  576  userdel harry
+  577  kill 23538
+  578  userdel harry
+  579  kill 23562
+  580  cd /home/
+  581  ls -l
+  582  cat /etc/passwd
+  583  cat /etc/passwd |awk -F':' '{print $1}'
+  584  uname -a
+  585  cat /etc/redhat-release 
+  586  cat /uname -a
+  587  ps -ef |awk '{print $1'
+  588  df
+  589  df -h
+  590  dfdisk
+  591  fdisk
+  592  useradd Harry1: echo -e "P@ssw@123\nP@ssw@123" | passwd Harry1
+  593  useradd Harry1: echo -e "P@ssw@123\P@ssw@123" | passwd Harry1
+  594  useradd Harry1: echo -e "P@ssw@123#\nP@ssw@12#3" | passwd Harry1
+  595  useradd Harry1: echo -e "P@ssw@123#\n P@ssw@12#3" | passwd Harry1
+  596  useradd Harry1; echo -e "P@ssw@123#\n P@ssw@12#3" | passwd Harry1
+  597  cat /etc/passwd
+  598  cat /etc/passwd|awk -F':' '{print $1}'
+  599  cat /etc/passwd|awk -F':' '{print $1}'|grep Harry1
+  600  userdel Harry1 
+  601  cat /etc/passwd |awk -F':' '{print $1}'|grep Harry
+  602  cat /etc/passwd |awk -F':' '{print $1}'|grep harry
+  603  userdel harry 
+  604  useradd harry; echo -e "Pass@123\nPass@123"|passwd harry
+  605  cat /etc/passwd|awk -F':''{print $1}' |grep harry
+  606  cat /etc/passwd|awk -F':'{print $1}' |grep harry
+  607  cat /etc/passwd
+  608  cat /etc/passwd |awk -F':' '{print $1}'
+  609  cat /etc/passwd |awk -F':' '{print $1}' |grep harry
+  610  cat /etc/passwd |awk -F':' '{print $1}' |grep bobby
+  611  cat /etc/passwd ||awk -F':' '{print $1}' |grep harry
+  612  cat /etc/passwd ||awk -F':''{print $1}' |grep harry
+  613  cat /etc/passwd ||awk -F':' '{print $1}' |grep harry
+  614  cat /etc/passwd |awk -F':' '{print $1}' |grep harry
+  615  cat /etc/passwd |awk -F':' '{print $1}' |grep Harry
+  616  cat /etc/passwd |awk -F':' '{print $1}' |grep ??rry
+  617  cat /etc/passwd |awk -F':' '{print $1}' |grep ?arry
+  618  cat /etc/passwd |awk -F':' '{print $1}' |grep '?arry'
+  619  cat /etc/passwd |awk -F':' '{print $1}' |grep 'harry'
+  620  cat /etc/passwd |awk -F':' '{print $1}' |grep 'ha?ry'
+  621  cat /etc/passwd |awk -F':' '{print $1}' |grep harry
+  622  userdel harry 
+  623  useradd harry; echo -e "SMY3KnuG$\nSMY3KnuG$" |passwd harry
+  624  cat /etc/passwd |awk -F':' '{print $1}'|grep harry
+  625  ls -ltr
+  626  mkdir -p Testdir /{Linux/{Centos,Redhat},window/{win7,win10}}
+  627  tree Testdir/
+  628  rm -rf Testdir/
+  629  mkdir -p Testdir/{Linux/{Centos,Red},Window/{Win7,Win10}}
+  630  tree Testdir/
+  631  rm Testdir/
+  632  rm -rf Testdir/
+  633  ls -ltr
+  634  mkdir -p Testdir/{Linux/{Centos,RedHat},Window/{Win7,Win10}}
+  635  tree Testdir/
+  636  cat /etc/passwd |awk -F':' '{print $1}'
+  637  cat /etc/passwd |awk -F':' '{print $1}' |grep harry
+  638  userdel harry 
+  639  ls -ltr
+  640  tree Testdir/
+  641  cp file1 Testdir/Linux/RedHat/
+  642  tree Testdir/
+  643  ls -ltr
+  644  cp -rvfp file1 Testdir/Linux/RedHat/
+  645  tree Testdir/
+  646  ls -ltr
+  647  mv file1 Testdir/Linux/RedHat/
+  648  ls -ltr
+  649  pwd
+  650  whoami
+  651  hostname
+  652  rm -rf Testdir/
+  653  ls -ltr
+  654  mkdir -p Testdir/{Linux/{Centos,RedHat},Windows/{Win7,Win10},Gods/{Vishnu,Shiva}}
+  655  tree Testdir/
+  656  mv file2 Testdir/Linux/RedHat/
+  657  tree Testdir/
+  658  cd Testdir/Linux/RedHat/
+  659  ls
+  660  cat >>file2 
+  661  cat file2 
+  662  cd /home/bss/
+  663  ls -ltr
+  664  mv Testdir/ TestDir_Rename
+  665  ls -ltr
+  666  tree  TestDir_Rename/
+  667  rm file3 TestDir_Rename/Gods/Vishnu/
+  668  mv file3 TestDir_Rename/Gods/Vishnu/
+  669  ls -ltr
+  670  tree TestDir_Rename/
+  671  init 6
+  672  systemctl enable --now cockpit.socket
+  673  ip a
+  674  ifconfig
+  675  ssh 192.168.48.129
+  676  fdisk
+  677  fdisk -l
+  678  parted -l
+  679  fdisk /dev/nvme0n1
+  680  mount
+  681  cat /etc/spool/mail
+  682  pwd
+  683  cd ~
+  684  cat /etc/spool
+  685  cd /etc/
+  686  ls -ltr spool
+  687  ls -ltr -i spool
+  688  ls -ltr
+  689  ls -ltr -i passwd
+  690  cat /etc/passwd
+  691  cat /etc/passwd|awk -F':' '{print $1}'
+  692  cat /etc/shadow
+  693  cat /etc/shadow |awk -F':' '{print $1}'
+  694  cat /etc/shadow |awk -F':' '{print $1}'|grep harry
+  695  cat /etc/shadow |awk -F':' '{print $1}'|grep ironman1
+  696  cat /etc/shadow |awk -F':' '{print $1}'|grep ironman*
+  697  cat /etc/shadow |awk -F':' '{print $1}'|grep test*
+  698  cat /etc/shadow |awk -F':' '{print $1}'|grep testus*
+  699  userdel testusr 
+  700  useradd testusr; echo -e "SMY3KnuG#\nSMY3KnuG#" |passwd testusr
+  701  tail /etc/passwd
+  702  userdel testusr 
+  703  tail /etc/passwd
+  704  useradd testusr -u 505 -d /home/test -c IT_Executive
+  705  tail /etc/passwd
+  706  userdel testusr 
+  707  tail /etc/passwd
+  708  useradd testusr -u 1001 -d /home/test -c IT Executive
+  709  useradd testusr -u 1001 -d /home/test -c 'IT Executive'
+  710  useradd testusr -u 1011 -d /home/test -c 'IT Executive'
+  711  tail /etc/passwd
+  712  tail /etc/shadow
+  713  usermod testusr -L
+  714  cat /etc/shadow |grep testusr
+  715  usermod testusr -U
+  716  cat /etc/shadow |grep testusr
+  717  usermod testusr -U SMY3KnuG#
+  718  usermod testusr -U -p SMY3KnuG#
+  719  usermod testusr -p SMY3KnuG# -U
+  720  cat /etc/shadow |grep testusr
+  721  usermod -U testusr 
+  722  cat /etc/shadow |grep testusr
+  723  cat /etc/shadow |grep ironman1
+  724  usermod ironman1 -L
+  725  cat /etc/shadow |grep ironman1
+  726  usermod ironman1 -U
+  727  cat /etc/shadow |grep ironman1
+  728  ssh
+  729  ssh root
+  730  app list
+  731  apt list
+  732  yum list installed
+  733  rpm -qa
+  734  yum install openssh-server
+  735  yum list installed |grep ssh
+  736  ssh 192.168.48.129
+  737  ls -la .ssh
+  738  ssh-keygen -t ed25519 -C "SSH Default"
+  739  ls -la .ssh/
+  740  cat .ssh/id_ed25519.pub 
+  741  cat .ssh/id_ed25519
+  742  ssh-copy-id -i ~/.ssh/id_ed25519.pub 192.168.48.129
+  743  ssh 192.168.48.129
+  744  cat .ssh/authorized_keys 
+  745  ls -l .ssh/
+  746  ssh-copy-id -i ~/.ssh/id_ed25519.pub
+  747  ssh-keygen -t ed25519 -C "Ansible"
+  748  ls -la /home/bss/.ssh/
+  749  ssh-copy-id -i ~/.ssh/ansible.pub 192.168.48.129
+  750  ssh-copy-id -i /home/bss/.ssh/ansible.pub 192.168.48.129
+  751  cd /home/bss/.ssh/
+  752  ls -ltr
+  753  cat ansible.pub 
+  754  ssh-copy-id -i ansible.pub 192.168.48.129
+  755  cd ~
+  756  eval $(ssh-agent)
+  757  top
+  758  ps aux | grep 4273
+  759  ps aux | grep ssh
+  760  alias ssha='eval $(ssh-agent) && ssh-add'
+  761  ssha
+  762  nano .bashrc
+  763  python -m pip show ansible
+  764  cd ~
+  765  find / -name ansible_learning
+  766  cd .ssh/ansible_learning/
+  767  ls
+  768  vim inventory
+  769  ls -ltr
+  770  vim inventory
+  771  ls -ltr
+  772  cat inventory 
+  773  ls
+  774  git status
+  775  git add inventory 
+  776  git status
+  777  git commit -m "First version of the inventory file, added one host only for now"
+  778  git push origin master
+  779  git push origin main 
+  780  git add ansible_learning/
+  781  ls -ltr
+  782  rm -rf ansible_learning/
+  783  ls -ltr
+  784  git status
+  785  git rm -rf ansible_learning 
+  786  git status
+  787  git push origin main
+  788  ls -ltr
+  789  git add inventory 
+  790  git status
+  791  git commit -m "added"
+  792  git push origin main
+  793  git pull origin main 
+  794  git pull origin master 
+  795  git commit -m "resolve multiple files"
+  796  git add root_history_commands
+  797  git commit -m "removed merge conflicts"
+  798  git status
+  799  git push origin main 
+  800  git status
+  801  git push origin master
+  802  ls -ltr
+  803  ansible all --key-file ~/.ssh/ansible -i inventory -m ping
+  804  ls -ltr
+  805  pwd
+  806  ansible all --key-file /root/.ssh/ansible_learning/ -i inventory -m ping
+  807  ls -ltr
+  808  chmod 777 inventory 
+  809  ls -ltr
+  810  ansible all --key-file /root/.ssh/ansible_learning/ -i inventory -m ping
+  811  ansible all --key-file /root/.ssh/ansible_learning -i inventory -m ping
+  812  ping 192.168.48.129
+  813  python3 -m pip install --user https://github.com/ansible/ansible/archive/devel.tar.gz
+  814  yum install ansible-core~=2.14.1
+  815  python -m pip install --user ansible-core==2.14.1
+  816  python3 -m pip install --user https://github.com/ansible/ansible/archive/devel.tar.gz
+  817  git branch deve1
+  818  git branch
+  819  git -b branch  deve1
+  820  git checkout -b  deve1
+  821  ls
+  822  git branch
+  823  rm deve1
+  824  git rm deve1
+  825  git rm -r deve1
+  826  ls
+  827  git branch
+  828  git branch -d deve1
+  829  git branch
+  830  git push origin --delete deve1
+  831  get fetch -p
+  832  git fetch -p
+  833  git checkout -b dev1
+  834  git checkout -b dev1 commit
+  835  git push -u origin dev1
+  836  git checkout dev1
+  837  git checkout bobby
+  838  source ./hacking/env-setup
+  839  cd ./ansible
+  840  [Cwhich git
+  841  which git
+  842  yum update
+  843  yum install git
+  844  cat .ssh/
+  845  ls -la .ssh/
+  846  ls -la /home/bss/
+  847  ls -la /home/bss/.ssh/
+  848  cat /home/bss/.ssh/ansible.pub 
+  849  cat /home/bss/.ssh/ansible
+  850  cat 
+  851  git clone https://github.com/Bhoopendra192016/ansible_learning.git
+  852  ls
+  853  cd ansible_learning/
+  854  ls
+  855  cat -i readme.md
+  856  cat README.md 
+  857  git config --global user.name "Bhoopendra Singh"
+  858  git config --global user.email "bss.srm@gmail.com"
+  859  cat ~/.gitconfig 
+  860  ls -ltr
+  861  nano README.md
+  862  cat README.md 
+  863  git status
+  864  git diff README.md
+  865  git add README.md 
+  866  git status 
+  867  git commit -m "Update ReadMe file, initial commit"
+  868  git push origin master
+  869  git branch -b
+  870  git branch
+  871  git checkout -b master
+  872  git branch
+  873  git branch -b
+  874  git push origin master 
+  875  cd ~
+  876  git clone git@github.com:Bhoopendra192016/ansible_learning.git
+  877  find -name ansible_learning/
+  878  find  ansible_learning/
+  879  ls -ltr
+  880  rm -rf ansible_learning/
+  881  ls -ltr
+  882  git clone git@github.com:Bhoopendra192016/ansible_learning.git
+  883  ssh-agent 
+  884  git clone git@github.com:Bhoopendra192016/ansible_learning.git
+  885  su bss
+  886  yum update
+  887  history
+  888  history>root_command_history
+  889  ls-ltr
+  890  ls -ltr
+  891  git diff root_command_history
+  892  git add root_command_history 
+  893  git push origin master
+  894  pwd
+  895  cd ~
+  896  cd /home/
+  897  ls -ltr
+  898  cd .ssh/
+  899  cd ~
+  900  cd .ssh/
+  901  ls -ltr
+  902  ssh-keygen -t rsa -C "Root SSH File"
+  903  ls -ltr
+  904  vim id_rsa.pub
+  905  git clone git@github.com:Bhoopendra192016/ansible_learning.git
+  906  ls -ltr
+  907  cd ansible_learning/
+  908  ls -ltr
+  909  cat README.md 
+  910  history >root_history_commands
+  911  ls -ltr
+  912  git commit -c "root_user history linux ommands"
+  913  git commit -m "root_user history linux ommands"
+  914  git add root_history_commands 
+  915  git status
+  916  git commit -m ""
+  917  git commit -m "root_user history linux ommands"
+  918  git push origin master
+  919  git push origin main
+  920  yum install ansible-ble
+  921  yum install ansible
+  922  list installed
+  923  yum list installed
+  924  yum list installed | grep python
+  925  subscription-manager repo --enable satellite-tools-6.6-for-rhel-9-x86_64_rpms
+  926  yum install ansible
+  927  subscription-manager repos --enable satellite-tools-6.6-for-rhel-8-x86_64-rpms
+  928  subscription-manager repos --list
+  929  subscription-manager repos --enable satellite-client-6-for-rhel-9-x86_64-eus-source-rpms
+  930  subscription-manager repos --list|grep satellite-tools
+  931  subscription-manager repos --enable ansible-2.9-for-rhel-8-x86_64-rpms
+  932  cat /etc/redhat-release 
+  933  sudo dnf install -y ansible-core
+  934  cd ~
+  935  find bash
+  936  find . bash
+  937  find . bin
+  938  find / bin
+  939  sudo dnf install ansible
+  940  dnf install ansible-core
+  941  subscription-manager repos --list
+  942  subscription-manager unregister --username=root
+  943  subscription-manager unregister 
+  944  find / systems
+  945  python3 -m pip -V
+  946  cd /usr/bin/
+  947  ls -ltr
+  948  ls -ltr |grep python
+  949  curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+  950  python3 get-pip.py --user
+  951  python3 -m pip -V
+  952  python3 -m pip install --user ansible
+  953  ansible --version
+  954  python -m pip show ansible
+  955  history
+  956  ls -ltr
+  957  find / root_history_commands
+  958  find . root_history_commands
+  959  find . -name "root_history_commands"
+  960  find / -name "root_history_commands"
+  961  history
+  962  cd ~
+  963  history
+  964  find / -name "root_history_commands"
+  965  history >>
+  966  history >>/root/.ssh/ansible_learning/root_history_commands
+  967  cd .ssh/ansible_learning/
+  968  cat root_history_commands 
+  969  git diff root_history_commands
+  970  git add root_history_commands 
+  971  git status
+  972  git push origin main 
+  973  cat root_history_commands | more
+  974  git status root_history_commands 
+  975  git clone git@github.com:Bhoopendra192016/ansible_learning.git
+  976  ls -ltr
+  977  cat ansible_learning |more
+  978  cd ansible_learning/
+  979  ls 
+  980  cat root_history_commands |more
+  981   history
+  982  history >>root_history_commands 
+  983  cat root_history_commands |more
+  984  git status root_history_commands 
+  985  git commit -m " append all history commands for root users"
+  986  git add root_history_commands 
+  987  git commit -m " append all history commands for root users"
+  988  git push origin main 
+  989  sort root_history_commands |uniq
+  990  root_history_commands |uniq
+  991  uniq root_history_commands 
+  992  uniq root_history_commands 
+  993  sort root_history_commands |uniq
+  994  sort root_history_commands |uniq |grep post
+  995  uniq -u root_history_commands 
+  996  uniq -u root_history_commands |awk -F':' '{print $1}'
+  997  cd ~
+  998  su bss
+  999  ansible --version
+ 1000  pwd
+ 1001  find . -name ansible
+ 1002  find / -name ansible
+ 1003  find . -name ssh
+ 1004  find / -name ssh
+ 1005  cd .ssh/
+ 1006  ls -l
+ 1007  cd ansible_learning/
+ 1008  pwd
+ 1009  ls -ltr
+ 1010  cat>test_git
+ 1011  ls -l
+ 1012  git status
+ 1013  git add -m "updated files"
+ 1014  git add test_git 
+ 1015  git status
+ 1016  git add inventory
+ 1017  git status 
+ 1018  git commit -m "updated and created new file"
+ 1019  git push origin main 
+ 1020  git branch 
+ 1021  git status
+ 1022  git push origin dev1 
+ 1023  history
+ 1024  history |grep ping
+ 1025  history | cat>>root_history_commands 
